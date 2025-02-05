@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Yay, thanks for helping me figure this out
 // Step 1: Define the Robot class
 class Robot {
 private:
@@ -10,6 +10,7 @@ private:
 
 public:
     // Constructor
+
     Robot(string n, string m, int b): name(n), model(m), batteryLife(b){}
 
     // Getter Methods
